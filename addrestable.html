@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+         table{
+             border: 4px groove rgb(15, 15, 14);
+             width: 400px;
+             height: 500px;
+             padding: 3px;
+             background-color: paleturquoise;
+             margin-left: 30%;
+         }
+         tr,td{
+             border: 2px solid palevioletred;
+             
+         }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><b><h2>COMPLEX TABLE</h2></b></caption>
+        <tr>
+            <td colspan="2">Invoice No:12345</td><!--first line-->
+            <td colspan="2">25 sept 2019</td>
+
+        </tr>
+        <tr>
+            <td colspan="2">Pay to:- <br>Addres</td>
+            <td colspan="2">Customer id:-</td>
+
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Qty</td>
+            <td>cost</td>
+        </tr>
+        <tr>
+            <td>Aniket <br>gauri</td>
+            <td>mobile <br>shopping</td>
+            <td>1 <br> 4</td>
+            <td>400 <br>53333</td>
+        </tr>
+        <tr>
+            <td colspan="3">Subtotal</td>
+            <td>54733</td>
+        </tr>
+        <tr>
+            <td colspan="2">Tax</td>
+            <td>8%</td>
+            <td>750</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b> Grand total</b></td>
+            <td style="background-color: seashell;">55000</td>
+        </tr>
+    </table>
+</body>
+</html>
